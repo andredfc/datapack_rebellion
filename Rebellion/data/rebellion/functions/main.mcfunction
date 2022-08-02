@@ -1,0 +1,2 @@
+execute if entity @e[tag=center] run function rebellion:stageloops/allstagesloop
+execute unless entity @e[tag=center] as @a[scores={centerTrigger=1..}] if entity @s at @s run function rebellion:start/triggerstart

@@ -1,0 +1,13 @@
+{
+    "values": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "enderman",
+      "blaze",
+      "wither_skeleton",
+      "witch",
+      "creeper",
+      "vex"
+    ]
+  }
