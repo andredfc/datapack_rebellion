@@ -1,0 +1,3 @@
+execute if entity @s[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{slowpants:1b}}]}] run function rebellion:items/sneaking_slowpants
+execute if entity @s[tag=!medusa,nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin",tag:{medusa:1b}}]}] run function rebellion:items/medusa
+execute if entity @s[scores={Cocaina_Cooldown=..0},nbt={SelectedItem:{id:"minecraft:sugar",Count:1b,tag:{cocaina:1b}}}] at @s run function rebellion:items/cocaina_start

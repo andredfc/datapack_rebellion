@@ -1,0 +1,251 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;455358405,36651013,-1184554701,1475324664],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;1509068251,-1960033332,-1780908347,-754533843],Slot:\"chest\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;455358405,36651013,-1184554701,1475324664],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;1509068251,-1960033332,-1780908347,-754533843],Slot:\"chest\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;455358405,36651013,-1184554701,1475324664],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;1509068251,-1960033332,-1780908347,-754533843],Slot:\"chest\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

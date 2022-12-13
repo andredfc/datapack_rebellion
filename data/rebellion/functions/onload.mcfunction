@@ -1,0 +1,3 @@
+say Carregando datapack...
+function rebellion:loadscoreboards
+function rebellion:team/create_teams

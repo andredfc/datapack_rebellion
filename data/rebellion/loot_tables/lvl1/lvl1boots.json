@@ -1,0 +1,251 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:2,UUID:[I;-967417450,1012813424,-1309902458,561592933],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1818888157,-2043262319,-1129766196,1808856165],Slot:\"feet\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:2,UUID:[I;-967417450,1012813424,-1309902458,561592933],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1818888157,-2043262319,-1129766196,1808856165],Slot:\"feet\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:2,UUID:[I;-967417450,1012813424,-1309902458,561592933],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1818888157,-2043262319,-1129766196,1808856165],Slot:\"feet\"}]}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:projectile_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

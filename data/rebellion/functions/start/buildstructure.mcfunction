@@ -13,7 +13,7 @@ fill ~-3 ~-1 ~-3 ~3 ~-1 ~3 cracked_deepslate_tiles outline
 fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 coal_block outline
 fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 netherite_block outline
 
-fill ~-10 ~ ~-10 ~10 ~20 ~10 air
+fill ~-10 ~ ~-10 ~10 ~10 ~10 air
 
 fill ~-2 ~-3 ~-2 ~2 ~-3 ~2 iron_block
 setblock ~ ~-2 ~ beacon

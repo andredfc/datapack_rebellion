@@ -1,0 +1,242 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cocaina\",\"color\":\"white\"}',Lore:['{\"text\":\"Shift to use\"}']},cocaina:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_regeneration",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_strength",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.35
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_regeneration",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.15
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.12
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_turtle_master",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_swiftness",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_poison",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_slowness",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.35
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_poison",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_weakness",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lava_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:water_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:milk_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Smoke\",\"color\":\"dark_gray\",\"bold\":true}',Lore:['{\"text\":\"Utilize quando estiver em perigo!\"}']},smoke:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Reveal Bomb\",\"color\":\"dark_gray\",\"bold\":true}',Lore:['{\"text\":\"Revela inimigos na regiao\"}']},reveal:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

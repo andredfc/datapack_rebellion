@@ -1,0 +1,263 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:600},{Id:4,Amplifier:0b,Duration:1800}],Potion:\"minecraft:water\",CustomPotionColor:16777215}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:1,Amplifier:5b,Duration:80},{Id:33,Amplifier:1b,Duration:80}],Potion:\"minecraft:water\",CustomPotionColor:10593148}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:14,Amplifier:1b,Duration:200},{Id:25,Amplifier:1b,Duration:200},{Id:28,Amplifier:1b,Duration:400}],Potion:\"minecraft:water\",CustomPotionColor:1640084}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:19,Amplifier:2b,Duration:100},{Id:20,Amplifier:2b,Duration:100}],Potion:\"minecraft:water\",CustomPotionColor:16420}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:7,Amplifier:2b,Duration:1},{Id:17,Amplifier:5b,Duration:1200}],Potion:\"minecraft:water\",CustomPotionColor:14876672}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:9,Amplifier:2b,Duration:120}],Potion:\"minecraft:water\",CustomPotionColor:14878157}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:8,Amplifier:10b,Duration:200}],Potion:\"minecraft:water\",CustomPotionColor:14910781}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:7,Amplifier:2b,Duration:1}],Potion:\"minecraft:water\",CustomPotionColor:14876672}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:2,Amplifier:2b,Duration:160}],Potion:\"minecraft:water\",CustomPotionColor:4014146}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:18,Amplifier:1b,Duration:200}],Potion:\"minecraft:water\",CustomPotionColor:10199976}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:19,Amplifier:2b,Duration:160}],Potion:\"minecraft:water\",CustomPotionColor:362240}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:33,Amplifier:1b,Duration:40}],Potion:\"minecraft:water\",CustomPotionColor:0}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:19,Amplifier:2b,Duration:160}],Potion:\"minecraft:water\",CustomPotionColor:362240}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:24,Amplifier:1b,Duration:100},{Id:25,Amplifier:4b,Duration:100},{Id:28,Amplifier:1b,Duration:200}],Potion:\"minecraft:water\",CustomPotionColor:16777215}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

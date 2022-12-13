@@ -1,0 +1,174 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 25
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:spectral_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:firework_rocket",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Foguete Comunista\",\"color\":\"red\",\"bold\":true}'},Fireworks:{Flight:3b,Explosions:[{Type:2,Colors:[I;16712451],FadeColors:[I;16711680]},{Type:2,Colors:[I;16715021],FadeColors:[I;16713736]},{Type:0},{Type:0}]}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "rebellion:generic/tippedarrow"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.5,
+                  "max": 0.9
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:power": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:flame": 1
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:punch": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 4
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:piercing": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 5
+                  }
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:multishot": 1
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:quick_charge": 3
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

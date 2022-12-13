@@ -1,0 +1,5 @@
+-matar quem der save/quit durante o game.
+-jogar pra superficie quem tiver em altura menor que 55
+-matar quem for pro nether
+
+-armas de porrada

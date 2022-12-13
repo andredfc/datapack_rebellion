@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl1/lvl1leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl1/lvl1helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl1/lvl1chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl1/lvl1boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,10 +2,11 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-      "player": {
-          "looking_at": {
-              "nbt": "{Tags:['medusa']}"
-          }
+    "type_specific": {
+      "type": "player",
+      "looking_at": {
+        "nbt": "{Tags:[\"medusa\"]}"
       }
+    }
   }
 }

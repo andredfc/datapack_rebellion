@@ -1,0 +1,4 @@
+SMOKE: {display:{Name:'{"text":"Smoke","color":"dark_gray","bold":true}',Lore:['{"text":"Utilize quando estiver em perigo!"}']},smoke:1b}
+REVEAL: {display:{Name:'{"text":"Reveal Bomb","color":"dark_gray","bold":true}',Lore:['{"text":"Revela inimigos na regiao"}']},reveal:1b}
+
+CALÇA +2 HP {AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-960719867,-1360769188,-1660802569,1137287790],Slot:"legs"}]}

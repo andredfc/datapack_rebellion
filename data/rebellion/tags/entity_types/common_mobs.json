@@ -3,11 +3,14 @@
       "minecraft:zombie",
       "minecraft:skeleton",
       "minecraft:spider",
-      "enderman",
-      "blaze",
-      "wither_skeleton",
-      "witch",
-      "creeper",
-      "vex"
+      "minecraft:enderman",
+      "minecraft:blaze",
+      "minecraft:wither_skeleton",
+      "minecraft:witch",
+      "minecraft:creeper",
+      "minecraft:vex",
+      "minecraft:giant",
+      "minecraft:husk",
+      "minecraft:stray"
     ]
   }

@@ -1,0 +1,1 @@
+data modify entity @e[type=arrow,sort=nearest,limit=1] Owner set from entity @s UUID

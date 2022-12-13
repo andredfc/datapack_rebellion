@@ -1,0 +1,207 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Special Boots\",\"color\":\"dark_blue\",\"bold\":true}',color:0},specialboots:1b,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:feather_falling\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-522813701,1795247698,-1242036878,60885466],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:2,UUID:[I;-1172710074,627461056,-1276644164,-927036673],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hook\",\"color\":\"dark_green\",\"bold\":true}',Lore:['{\"text\":\"5 seconds cooldown\"}']},hook:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:carved_pumpkin",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"MEDUSA\",\"color\":\"gray\"}',Lore:['{\"text\":\"Press shift to activate\"}']},medusa:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1923504318,793134629,-1502998235,-1361631612],Slot:\"head\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;1353475847,232278536,-1507066627,2039841448],Slot:\"head\"}]}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lightning\",\"color\":\"yellow\",\"bold\":true}'},lightning:1b,Enchantments:[{id:\"minecraft:loyalty\",lvl:3s},{id:\"minecraft:impaling\",lvl:5s},{id:\"minecraft:channeling\",lvl:1s},{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Explosion Shield\",\"color\":\"light_purple\",\"bold\":true}'},explosion:1b,BlockEntityTag:{Base:10,Patterns:[{Color:15,Pattern:\"flo\"}]}}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.04
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Slow Pants\",\"color\":\"gray\",\"bold\":true}',Lore:['{\"text\":\"Slow and damage to nearby enemies\"}'],color:9737364},slowpants:1b,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-594965845,213273121,-2010579640,416659130],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"TP Helmet\",\"color\":\"green\",\"bold\":true}',Lore:['{\"text\":\"Press shift to teleport to 10blocks in front(4s Cooldown)\"}']},tphelmet:1b,Enchantments:[{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;960158137,222708946,-1210006617,1207475500],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Levitation Wings\",\"color\":\"white\",\"bold\":true}',Lore:['{\"text\":\"Levitate nearby enemies when flying\"}']},levitationwings:1b,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;238501916,-1805826114,-1160194981,1374185546],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Smoke\",\"color\":\"dark_gray\",\"bold\":true}',Lore:['{\"text\":\"Utilize quando estiver em perigo!\"}']},smoke:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:spyglass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Sniper\",\"color\":\"dark_gray\",\"bold\":true}',Lore:['{\"text\":\"Atenção! 20 segundos cooldown\"}','{\"text\":\"Para atirar, basta apertar\"}','{\"text\":\"o botão direito enquanto estiver agachado.\"}','{\"text\":\"Para usar o scope,\"}','{\"text\":\"é necessário ativar antes de agachar.\"}','{\"text\":\"NÃO FUNCIONA DE PERTO\",\"color\":\"red\",\"bold\":true}']},sniper:1b,Enchantments:[{id:\"minecraft:piercing\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.9,Operation:2,UUID:[I;-905177977,1719682580,-1866850418,75151725],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lead",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Knockback Whip\",\"color\":\"dark_aqua\",\"bold\":true}'},Enchantments:[{id:\"minecraft:knockback\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-215490282,-1802813315,-1695791645,-1700392236],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Poison Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"30% Chance of poison on hit\"}']},hitpoison:1b,CustomModelData:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;212248225,1968721248,-1892376125,1286774981],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-533094791,-1034925422,-1848683606,1541907157],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Levitation Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"15% Chance of levitation on hit\"}']},hitlevitation:1b,CustomModelData:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;1789003229,-1343471230,-1847788643,-800801950],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-1114751354,1117474406,-1487484298,1457863347],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Blindness Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"15% Chance of blind on hit\"}']},hitblind:1b,CustomModelData:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-863566461,-1766767947,-1523051643,1745777241],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-1057680298,-931181619,-1191332952,1631593493],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Slowness Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"30% Chance of slow on hit\"}']},hitslow:1b,CustomModelData:4,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;910906309,-1603778432,-1457429756,1108269621],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-380514489,-1308864924,-2137476630,-572792066],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Explosion Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"15% Chance of explode on hit\"}']},hitexplode:1b,CustomModelData:5,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;910906309,-1603778432,-1457429756,1108269621],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-380514489,-1308864924,-2137476630,-572792066],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"TP Hoe\",\"color\":\"dark_aqua\",\"bold\":true}',Lore:['{\"text\":\"30% Chance of turning enemy 180 degrees on hit\"}']},hittp:1b,CustomModelData:6,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;910906309,-1603778432,-1457429756,1108269621],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-380514489,-1308864924,-2137476630,-572792066],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

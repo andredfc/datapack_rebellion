@@ -1,0 +1,3 @@
+summon giant ~ ~-10 ~ {CustomNameVisible:1b,DeathLootTable:"rebellion:entities/stage2mobs",Health:150f,Glowing:1b,Team:"team_stagemobs",Tags:["stage2mob","stage2mobsummoned"],CustomName:'{"text":"Stage 2 Mob"}',Attributes:[{Name:generic.max_health,Base:150}]}
+spreadplayers ~ ~ 2 125 false @e[type=#rebellion:common_mobs,tag=stage2mobsummoned]
+tag @e[type=#rebellion:common_mobs,tag=stage2mobsummoned] remove stage2mobsummoned

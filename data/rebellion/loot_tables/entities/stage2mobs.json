@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl2/lvl2armor",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl2/lvl2weapon",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:lvl2/lvl2rangweapon",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:generic/utilities",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rebellion:generic/special",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
